@@ -9,11 +9,11 @@
 			 $this->Image('img/jch.png', 10, 10, 50 );
 			$this->SetFont('Arial','B',18);
 			$this->Cell(30);
-			$this->Cell(220,10, 'Reporte De Empleados y Sueldos',0,0,'C');
+			$this->Cell(220,10, 'Reporte Sueldos y Empleados - PLANILLA',0,0,'C');
 			$this->Ln(30);
 
 		}
-		
+
 		function Footer()
 		{
 			$this->SetY(-15);
